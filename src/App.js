@@ -3,7 +3,7 @@ import {useState} from 'react';
 import './App.css';
 import Mensaje from './components/Mensaje';
 import Contraseña from './components/Contraseña';
-import Bonbillo from './components/Bonbillo';
+import Bombillo from './components/Bombillo';
 
 function App() {
 
@@ -42,13 +42,13 @@ function App() {
     <br />
       <Contraseña />
     <br />
-      <Bonbillo isOn={isOn} changeIsOn={changeIsOn} />
+      <Bombillo isOn={isOn} changeIsOn={changeIsOn} />
+      <br />
+      <Bombillo isOn={isOn} changeIsOn={changeIsOn}/>
       <br />
       <Bonbillo isOn={isOn} changeIsOn={changeIsOn}/>
       <br />
-      <Bonbillo isOn={isOn} changeIsOn={changeIsOn}/>
-      <br />
-      <Bonbillo isOn={isOn} changeIsOn={changeIsOn}/>
+      <Bombillo isOn={isOn} changeIsOn={changeIsOn}/>
       <br />
     </div>
   </>
